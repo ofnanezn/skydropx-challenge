@@ -8,5 +8,5 @@ def hello():
     ip = os.getenv('INTERNAL_IP')
     return f"<h1>Hello There!</h1>\n<p>The Internal IP address is {ip}<\p>"
 
-  if __name__ == "__main__":
+if __name__ == "__main__":
     application.run(host='0.0.0.0', port=5000, debug=True)
